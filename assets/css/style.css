@@ -4,7 +4,44 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+.header {
+    margin:0px;
+    position: relative;
+    background-color: white;
+    width:100%;
+    height:70px;
+    
+}
+.topnav{
+    overflow:hidden;
+    background-color: rgb(172, 97, 159);
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
 
+nav {
+    height:10vh;
+    background-color:transparent;
+    display:table;
+    width:100%;
+}
+.ul { position:absolute;
+    list-style-type: none;
+    right:300px;
+    line-height:70px;
+}
 
 body{
     background-image: url("./../images/back.jpg")
@@ -12,11 +49,16 @@ body{
 * {
     margin:0;
 }
-nav {
-    height:10vh;
-    background-color:green;
-    display:table;
-    width:100%;
+
+.dropbtn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: black;
+    margin:2x;
+    border: solid 1px transparent;
+    padding: 0.5em;
+    color: rgb(5, 8, 12);
+    background-color: rgb(164, 122, 212);
 }
 
 .title {
@@ -24,6 +66,7 @@ nav {
     float:left;
     display:table;
     padding: 0px 20px;
+    
     
 }
 
@@ -36,6 +79,8 @@ nav {
     float:right;
     display:table;
     height:10vh;
+
+
 }
 
 .nav-item {
@@ -43,7 +88,8 @@ nav {
     vertical-align: middle;
     padding-left:5px;
     padding-right:10px;
-    color:white
+    color:white;
+   
 }
 
 
@@ -56,6 +102,7 @@ nav {
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
+    
 }
 
 .content {
@@ -63,12 +110,15 @@ nav {
     margin:100px auto;
     border: 5px solid black;
     padding:20px;
+    
 
 }
 
 .subject {
     border-bottom: 5px solid black;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
 }
 .profile-pic {
     height: 300px;
@@ -88,6 +138,6 @@ nav {
 
 footer {
     height:10vh;
-    background-color: blueviolet;
+    background-color: rgb(160, 119, 199);
 
 }
